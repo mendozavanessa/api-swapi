@@ -1,0 +1,50 @@
+@font-face {
+  font-family: fuente1;
+    src: url(../assets/SuperMario256.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 1em;
+  background-image: url(../assets/img/1.gif);
+}
+#nameActor, h1 {
+  font-family: fuente1;
+  color: black;
+}
+h1 {
+  color: white;
+}
+section img{
+  border: 3px dashed white;
+  cursor: url(http://icons.webpatashala.com/icons/Star-Wars-Characters-Icons/Png/Ahsoka-Tano-icon.PNG),auto;
+}
+section img:hover{
+  border: 3px solid white;
+  opacity: 0.9;
+}
+.datesActor {
+  font-size: 1.3em;
+  font-weight: 600;
+  display: inline-block;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: auto 7em;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.modal-content {
+  background: linear-gradient(-90deg, black, yellow);
+}
+.modal-footer {
+  background: linear-gradient(-90deg, yellow, white);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Swapi</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col s6 offset-s3">
+            <img src="assets/img/starwars.png" class="responsive-img animated zoomIn" width="500" alt="">
+          </div>
+        </div>
+        <h1 class="center-align animated zoomIn">CHOOSE YOUR FAVORITE CHARACTER</h1>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <div class="col s4">
+              <img  class="circle responsive-img modal-trigger animated fadeInLeft" data-target="modal1" src="assets/img/1.jpg" alt="Luke Skywalker">
+              <img  class="circle responsive-img modal-trigger animated fadeInLeft" data-target="modal1" src="assets/img/2.jpg" alt="C-3PO">
+              <img  class="circle responsive-img modal-trigger animated fadeInLeft" data-target="modal1" src="assets/img/3.jpg" alt="R2-D2">
+              <img  class="circle responsive-img modal-trigger animated fadeInLeft" data-target="modal1" src="assets/img/10.jpg" alt="Obi-Wan Kenobi">
+            </div>
+            <div class="col s4">
+              <img  class="circle responsive-img modal-trigger animated flip" data-target="modal1" src="assets/img/4.jpg" alt="Darth Vader">
+              <img  class="circle responsive-img modal-trigger animated flip" data-target="modal1" src="assets/img/5.jpg" alt="Leia Organa">
+              <img  class="circle responsive-img modal-trigger animated flip" data-target="modal1" src="assets/img/6.jpg" alt="Owen Lars">
+              <img  class="circle responsive-img modal-trigger animated flip" data-target="modal1" src="assets/img/11.jpg" alt="">
+            </div>
+            <div class="col s4">
+              <img  class="circle responsive-img modal-trigger animated fadeInRight" data-target="modal1" src="assets/img/7.jpg" alt="Beru Whitesun lars">
+              <img  class="circle responsive-img modal-trigger animated fadeInRight" data-target="modal1" src="assets/img/8.jpg" alt="R5-D4">
+              <img  class="circle responsive-img modal-trigger animated fadeInRight" data-target="modal1" src="assets/img/9.png" alt="Biggs Darklighter">
+              <img  class="circle responsive-img modal-trigger animated fadeInRight" data-target="modal1" src="assets/img/11.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4 id="nameActor"></h4>
+        <hr>
+        <div class="datesActor">
+          <div class="info"></div>
+          <p id="films"></p>
+          <p id="species"></p>
+          <p id="starships"></p>
+        </div>
+        <div class="image">
+          <img src="assets/img/logo2.png" class="responsive-img" alt="">
+        </div>
+        </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-purple btn-flat">Close</a>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
