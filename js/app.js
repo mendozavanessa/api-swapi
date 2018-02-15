@@ -25,7 +25,8 @@ $(document).ready(function() {
   const handleError = () => {
     console.log('Se ha presentado un error');
   };
-  const addNews = () => {
+  // usando funcion statement por el contexto de this
+  function addNews() {
     // obteniendo el objeto javascript para ello el json obtenido se debe parsear con JSON.parse()
     const data = JSON.parse(this.responseText);
     // console.log(data);
