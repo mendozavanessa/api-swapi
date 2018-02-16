@@ -20,7 +20,7 @@ h1 {
 }
 section img{
   border: 3px dashed white;
-  cursor: url(http://icons.webpatashala.com/icons/Star-Wars-Characters-Icons/Png/Ahsoka-Tano-icon.PNG),auto;
+  cursor: url(https://icons.webpatashala.com/icons/Star-Wars-Characters-Icons/Png/Ahsoka-Tano-icon.PNG),auto;
 }
 section img:hover{
   border: 3px solid white;
