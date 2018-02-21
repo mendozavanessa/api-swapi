@@ -1,13 +1,12 @@
 # SWAPI
 
-> Recuerda seguir siempre esta [guía de estilos](https://github.com/Laboratoria/js-style-guide/)
+Proyecto en cual podemos obtener la información de los personajes de Star Wars.
 
-Que la fuerza te acompañe en este ejercicio, revisa las siguientes slides para que puedas crear esta fenómenal app para los amantes de Star Wars.
+![image](https://user-images.githubusercontent.com/32309424/36493706-38ab3236-16fe-11e8-8b1c-7e5ba7b7cdf2.png)
 
-___
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
 
-### Objetivos
-Aprender sobre apis y xhr  poniendo en practica todo lo aprendido en clases
 
 ### Organizacion del trabajo
 
